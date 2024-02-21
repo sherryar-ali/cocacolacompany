@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main h1{
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+    text-align: center;
+}
+.navbar{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background-color: aqua; 
+    display: flex;
+    justify-content: space-evenly ; 
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: white;
+    background-color: crimson;
+}
